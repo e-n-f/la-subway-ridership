@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+
+open(IN, "stops.txt");
+while (<IN>) {
+	($id, $code, $name, $desc, $lat, $lon) = split(/,/);
+	$lat{$name} = $lat;
+	$lon{$name} = $lon;
+}
+close(IN);
+
+$lat{"Station"} = "lat";
+$lon{"Station"} = "lon";
+
+while (<>) {
+	chomp;
+
+	($id, $name) = split(/,/);
+	die "$name" if $lat{$name} eq "";
+	print "$_,$lat{$name},$lon{$name}\n";
+}

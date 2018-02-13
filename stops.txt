@@ -148,7 +148,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,stop_url,location_type,p
 80137A,80137A,26th Street / Bergamot Station - East Stairs,,34.02823,-118.46867,,2,80137S,
 80137B,80137B,26th Street / Bergamot Station - Northwest Ramp,,34.02787,-118.4698,,2,80137S,
 80137C,80137C,26th Street / Bergamot Station - Southwest Ramp,,34.02768,-118.46986,,2,80137S,
-80138,80138,17th Street / SMC Station,,34.023155,-118.480372,,0,80138S,17th/SMC
+80138,80138,17th Street / Santa Monica College Station,,34.023155,-118.480372,,0,80138S,17th/SMC
 80138S,80138S,17th Street / SMC Station,,34.023155,-118.480372,,1,,
 80138A,80138A,17th Street / SMC Station - East Ramp,,34.02363,-118.47982,,2,80138S,
 80138B,80138B,17th Street / SMC Station - West Ramp,,34.02264,-118.48103,,2,80138S,
